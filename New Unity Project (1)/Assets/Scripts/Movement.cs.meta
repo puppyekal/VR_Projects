@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 94422b6e865b56a4d8eb71e19679d248
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Head: {instanceID: 0}
+  - AxisHand: {instanceID: 0}
+  - NoFrictionMaterial: {instanceID: 0}
+  - FrictionMaterial: {fileID: 13400000, guid: 7a9153232d263f142b2ec98b88cc7171, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
