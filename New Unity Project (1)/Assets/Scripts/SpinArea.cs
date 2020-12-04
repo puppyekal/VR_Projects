@@ -9,6 +9,6 @@ public class SpinArea : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, -speed, 0);
+        transform.Rotate(0, speed * Time.deltaTime / 0.01f, 0, Space.Self);
     }
 }

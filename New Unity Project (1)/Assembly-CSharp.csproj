@@ -55,6 +55,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Controller\CameraManager.cs" />
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Controller\CharacterControls.cs" />
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Scripts\Bounce.cs" />
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Scripts\FPSDisplay.cs" />
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Scripts\FallPlat.cs" />
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Scripts\KillZone.cs" />
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Scripts\MovableObs.cs" />
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Scripts\Pendulum.cs" />
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Asset\ObstacleCoursePack\Scripts\WallMovable.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Cameras\Scripts\AutoCam.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
@@ -67,6 +77,7 @@
      <Compile Include="Assets\Asset\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Asset\Standard Assets\Characters\FirstPersonCharacter\Scripts\SavePos.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
@@ -145,6 +156,7 @@
      <Compile Include="Assets\Asset\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\Asset\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <Compile Include="Assets\Clear.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\SpinArea.cs" />
@@ -152,6 +164,7 @@
      <Compile Include="Assets\Scripts\movePlayer.cs" />
      <Compile Include="Assets\Scripts\myTouchPad.cs" />
      <Compile Include="Assets\SpinMill.cs" />
+     <Compile Include="Assets\SpinSeeSaw.cs" />
      <None Include="Assets\Asset\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Asset\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Asset\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
@@ -368,7 +381,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/PandoraCube06/Documents/GitHub/VR_Projects/New Unity Project (1)/Assets/Asset/SteamVRAsset/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/PandoraCube06/Documents/GitHub/VR_Projects/New Unity Project (1)/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
